@@ -164,4 +164,4 @@ if __name__ == '__main__':
     sim_thread = threading.Thread(target=simulation_loop, daemon=True)
     sim_thread.start()
     
-    app.run(debug=True, threaded=True)
+    app.run(host='0.0.0.0', debug=True, threaded=True)

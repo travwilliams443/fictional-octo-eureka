@@ -8,7 +8,7 @@ import argparse
 import signal
 
 # Default configuration
-DEFAULT_URL = 'http://localhost:5000'  # Flask app URL
+DEFAULT_URL = 'http://127.0.0.1:5000'  # Flask app URL
 DEFAULT_UPDATE_INTERVAL = 0.5  # seconds
 
 class PIDController:
